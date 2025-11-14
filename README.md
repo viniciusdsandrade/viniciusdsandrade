@@ -17,4 +17,4 @@
 ### Commit Streak
 ![](https://github-readme-streak-stats.herokuapp.com/?user=viniciusdsandrade&theme=dark&hide_border=false)
 ### Top Languages
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=viniciusdsandrade&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) software development/engineering. Available for both in-person and online collaborations during the morning/afternoon and afternoon/evening.
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=viniciusdsandrade&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) 
