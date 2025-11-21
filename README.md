@@ -1,6 +1,6 @@
 ## Hello, my name is Vinícius!
 
-- 💻 Back-End Java Developer
+💻 Back-End Java Developer
  
 # 💫 About Me:
 🔭 TODO
