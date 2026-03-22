@@ -113,14 +113,12 @@ Fora do trabalho, resolvo problemas no LeetCode e Beecrowd, participo de competi
 
 | Projeto | Stack | Descricao |
 |---------|-------|-----------|
-| [ECV Document Portal](https://github.com/viniciusdsandrade/ecv-document-portal) | Kotlin, Spring Boot 4, Angular 21 | Sistema completo de gestao documental ISO 9001 com OAuth2, IA generativa, CI/CD e deploy multi-cloud (AWS + Cloudflare) |
-| [Alpha Prime Gestao ECV](https://github.com/viniciusdsandrade/alfha-prime-gestao-ecv-mobile-with-flutter) | Flutter, Dart | App mobile para gestao de ECVs |
+| [Alpha Prime Gestao ECV](https://github.com/viniciusdsandrade/ecv-document-portal) | Kotlin, Spring Boot 4, Angular 21 | Sistema completo de gestao documental ISO 9001 com OAuth2, IA generativa, CI/CD e deploy multi-cloud (AWS + Cloudflare) |
 | [E-Commerce Microservices](https://github.com/viniciusdsandrade/e-commerce-with-spring-microservices) | Java, Spring Cloud, Kafka, Keycloak | E-commerce com arquitetura de microservicos, event-driven |
 | [HubSpot Integration](https://github.com/viniciusdsandrade/technical-case-hubspot-with-java-and-spring) | Java, Spring Boot | REST API com integracao HubSpot via OAuth 2.0 |
 | [Spring AI + OpenAI](https://github.com/viniciusdsandrade/spring-ai-with-openai) | Java, Spring AI | Integracao com modelos de IA via Spring AI |
 | [Data Structures & Algorithms](https://github.com/viniciusdsandrade/data-structures-and-algorithms-expert) | Java | Implementacoes de estruturas de dados e algoritmos |
 | [LeetCode Problems](https://github.com/viniciusdsandrade/leetcode-problems) | Java | Solucoes de problemas LeetCode |
-| [Kubernetes Beginner](https://github.com/viniciusdsandrade/kubernetes-beginner) | Kotlin | Estudos de orquestracao com Kubernetes |
 
 ---
 
