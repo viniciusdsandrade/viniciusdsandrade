@@ -12,11 +12,11 @@
 
 ---
 
-## Sobre mim
+## About me
 
-Engenheiro de Software full-stack em **Campinas, SP**, atuando na **Nuclea**. Experiencia solida em backend com **Kotlin/Java + Spring Boot** e frontend com **Angular**. Construo e mantenho sistemas em producao com deploy automatizado, infraestrutura em nuvem e integracoes com IA generativa.
+Full-stack Software Engineer based in **Campinas, SP**, currently working at **Nuclea**. Strong backend experience with **Kotlin/Java + Spring Boot** and frontend with **Angular**. I build and maintain production systems with automated deployments, cloud infrastructure, and generative AI integrations.
 
-Fora do trabalho, resolvo problemas no LeetCode e Beecrowd, participo de competicoes de programacao (Interfatecs) e estudo arquiteturas distribuidas.
+Outside of work, I solve problems on LeetCode and Beecrowd, compete in programming contests (Interfatecs), and study distributed architectures.
 
 ---
 
