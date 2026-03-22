@@ -12,6 +12,22 @@
 
 ---
 
+## GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=viniciusdsandrade&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+
+![Commit Streak](https://github-readme-streak-stats.herokuapp.com/?user=viniciusdsandrade&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=viniciusdsandrade&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=12)
+
+![Profile Views](https://komarev.com/ghpvc/?username=viniciusdsandrade&color=blueviolet&style=for-the-badge)
+
+</div>
+
+---
+
 ## About me
 
 Full-stack Software Engineer based in **Campinas, SP**, currently working at **Nuclea**. Strong backend experience with **Kotlin/Java + Spring Boot** and frontend with **Angular**. I build and maintain production systems with automated deployments, cloud infrastructure, and generative AI integrations.
@@ -127,25 +143,3 @@ Outside of work, I solve problems on LeetCode and Beecrowd, compete in programmi
 - **Beecrowd** — Problemas em Java, Python, C, SQL
 - **Interfatecs 2024 & 2025** — Competicao interinstitucional de programacao
 - **Cracking the Coding Interview** — 189 problemas resolvidos em Java
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=viniciusdsandrade&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-
-![Commit Streak](https://github-readme-streak-stats.herokuapp.com/?user=viniciusdsandrade&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=viniciusdsandrade&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=12)
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=viniciusdsandrade&color=blueviolet&style=for-the-badge)
-
-</div>
