@@ -23,6 +23,8 @@ Campinas, SP
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=viniciusdsandrade&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=12)
 
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=viniciusdsandrade&theme=tokyo-night&hide_border=true)
+
 ![Profile Views](https://komarev.com/ghpvc/?username=viniciusdsandrade&color=blueviolet&style=for-the-badge)
 
 </div>
