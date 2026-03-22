@@ -31,7 +31,9 @@ Campinas, SP
 
 ## About me
 
-Backend Software Engineer with **+4 years** of professional experience building and maintaining high-scale distributed systems. Currently at **iFood Tech**, working on order lifecycle services processing **~160M orders/month** with Java, Kotlin, and Go.
+Backend Software Engineer with **+4 years** of experience building and maintaining high-scale distributed systems. Currently at **Nuclea** — the backbone of Brazil's financial infrastructure — engineering the systems that power credit decisions, registrations, and data exchange across the entire national financial ecosystem.
+
+Previously at **iFood Tech** (1 year), where I worked on order lifecycle services processing **~160M orders/month** with Java, Kotlin, and Go.
 
 Strong expertise in **Spring ecosystem**, **microservices architecture**, **event-driven systems** (AWS SQS/SNS, Kafka, RabbitMQ), and **observability** (Datadog, Logz.io). Passionate about clean code, SOLID principles, Design Patterns, and continuous refactoring.
 
