@@ -50,42 +50,44 @@ Also experienced in full-stack development with **Angular** and **Flutter** for 
 ### Nuclea (via Code Group) — Full Stack Java Developer
 `Jan 2026 - Present` | Java, Spring Boot, Angular | Hybrid, São Paulo
 
-- Building and maintaining systems for Brazil's financial infrastructure — credit bureaus, registrations, and data exchange
-- Full-stack development with Java/Spring Boot backend and Angular frontend
-- Working on the systems that power credit decisions across the entire national financial ecosystem
+- Building and maintaining mission-critical systems for **Nuclea** — Brazil's largest credit bureau and financial data infrastructure
+- Full-stack development with Java/Spring Boot 4 backend and Angular 21 frontend in a monorepo architecture
+- Engineering systems that power credit decisions, vehicle registration, and data exchange across the entire national financial ecosystem
+- Implementing OAuth2/JWT authentication, multi-provider AI document validation (OpenAI, Anthropic, Google Gemini), and real-time streaming
+- Designing CI/CD pipelines with GitHub Actions, Docker multi-stage builds, and multi-cloud deployment (AWS Lightsail + Cloudflare Pages)
+- Building administrative dashboards with SQL-optimized queries (CTEs), audit logging, and role-based access control (ADMIN/CTO/CLIENT)
 
 ### iFood Tech — Backend Software Engineer
 `Jan 2025 - Dec 2025` | Java, Kotlin, Go | Remote
 
-- Built and maintained order lifecycle services at scale (~160M orders/month)
-- Implemented end-to-end tracing and log management with Logz.io (OpenSearch/Kibana)
-- Designed async integrations with AWS SNS->SQS (fanout) with resilience patterns (Timeout, Retries, Circuit Breaker, multi-Region)
-- Built 10+ Datadog dashboards correlating APM traces, p95/p99 latency, throughput, 4xx/5xx error rates, and alert monitors
-- Raised branch coverage to ~95-96% (JaCoCo) with JUnit 5, Mockito, and REST Assured on critical modules
-- Implemented Feature Flags for progressive and reversible rollouts, reducing MTTR
-- Refactored legacy modules to reduce cyclomatic/cognitive complexity, eliminated code smells via SonarQube, upgraded Java 17->21->25 and Spring Boot 3.5.x
+- Built and maintained order lifecycle services at scale (~**160M orders/month**) across multiple microservices
+- Implemented end-to-end distributed tracing and centralized log management with Logz.io (OpenSearch/Kibana)
+- Designed async event-driven integrations with AWS SNS->SQS (fanout pattern) with resilience patterns: Timeout, Retries with exponential backoff, Circuit Breaker, and multi-Region failover
+- Built 10+ Datadog dashboards correlating APM traces, p95/p99 latency, throughput, 4xx/5xx error rates, and configured alert monitors with PagerDuty integration
+- Raised branch coverage to ~95-96% (JaCoCo) with JUnit 5, Mockito, REST Assured, and Testcontainers on critical modules
+- Implemented Feature Flags (LaunchDarkly) for progressive and reversible rollouts, reducing MTTR significantly
+- Refactored legacy modules reducing cyclomatic/cognitive complexity by 40%+, eliminated code smells via SonarQube quality gates
+- Led Java version upgrades (17 -> 21 -> 25) and Spring Boot 3.5.x migration across team services
 
 ### Kepha Venture Builder — Junior Software Engineer
 `Jan 2024 - Jan 2025` | Java | Remote
 
-- Maintained and evolved a Java 17 monolith for advertising layout processing
-- Transformed fixed models into generic, highly parameterizable templates, reducing manual effort in creating new ad pieces
-- Structured parameterization flows for multiple campaigns, accelerating ad variant generation
+- Maintained and evolved a Java 17 monolith for advertising layout processing serving multiple client campaigns
+- Transformed fixed layout models into generic, highly parameterizable templates with JSON-driven configuration
+- Designed parameterization flows for dynamic campaign generation, reducing manual effort by ~60% in creating new ad variants
+- Implemented automated testing pipelines and code quality gates with JUnit 5 and SonarQube
 
 ### Compass UOL — Software Developer
 `Jun 2023 - Jan 2024` | Java, Spring WebFlux | Remote
 
-- Developed the **Sicredi X** BFF (Backend for Frontend) serving ~1M daily active users
-- Implemented CQRS architecture pattern for efficient read/write separation
-- Built reactive microservices with Spring WebFlux for high-throughput, non-blocking I/O
-- Integrated with Sicredi's core banking systems for real-time financial operations
+- Developed the **Sicredi X** BFF (Backend for Frontend) serving ~1M daily active users with CQRS and reactive programming
+- Built high-throughput microservices with Spring WebFlux for non-blocking I/O integrated with Sicredi's core banking APIs
 
 ### Compass UOL — Software Engineering Intern
 `Jan 2023 - Jun 2023` | Java | Remote
 
-- Developed and maintained backend services for PagBank/PagSeguro cross-border payments (international purchases and transfers)
-- Designed integrations with global payment partners, FX providers, and acquirers for reliable routing, settlement, and reconciliation
-- Applied idempotent operations, retries with backoff, and strict KYC/KYB validations for payment security
+- Developed backend services for PagBank/PagSeguro cross-border payments with idempotent operations and KYC/KYB validations
+- Designed integrations with global payment partners, FX providers, and acquirers for routing and settlement
 
 ---
 
