@@ -130,7 +130,8 @@ Outside of work, I solve problems on LeetCode and Beecrowd, compete in programmi
 | Projeto | Stack | Descricao |
 |---------|-------|-----------|
 | [Alpha Prime Gestao ECV](https://github.com/viniciusdsandrade/ecv-document-portal) | Kotlin, Spring Boot 4, Angular 21 | Sistema completo de gestao documental ISO 9001 com OAuth2, IA generativa, CI/CD e deploy multi-cloud (AWS + Cloudflare) |
-| [E-Commerce Microservices](https://github.com/viniciusdsandrade/e-commerce-with-spring-microservices) | Java, Spring Cloud, Kafka, Keycloak | E-commerce com arquitetura de microservicos, event-driven |
+| [DSCommerce](https://github.com/viniciusdsandrade/dscommerce-with-spring) | Java, Spring Boot | E-commerce completo com Spring Boot |
+| [Voll Med API](https://github.com/viniciusdsandrade/voll-med-api-with-spring) | Java, Spring Boot, MySQL | API REST para gestao de clinica medica |
 | [Spring Security with Java and Kotlin](https://github.com/viniciusdsandrade/spring-security-with-java-and-kotlin) | Java, Kotlin, Spring Security | Authentication and authorization with Spring Security, OAuth2, and JWT |
 | [Data Structures & Algorithms](https://github.com/viniciusdsandrade/data-structures-and-algorithms-expert) | Java | Implementacoes de estruturas de dados e algoritmos |
 | [LeetCode Problems](https://github.com/viniciusdsandrade/leetcode-problems) | Java | Solucoes de problemas LeetCode |
