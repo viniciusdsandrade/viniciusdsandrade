@@ -33,9 +33,9 @@ Campinas, SP
 
 ## About me
 
-Backend Software Engineer with **+4 years** of experience building and maintaining high-scale distributed systems. Currently at **Nuclea** — the backbone of Brazil's financial infrastructure — engineering the systems that power credit decisions, registrations, and data exchange across the entire national financial ecosystem.
+Backend Software Engineer with **+4 years** of experience building and maintaining high-scale distributed systems. Currently at **Nuclea** (via Code Group) — the backbone of Brazil's financial infrastructure — engineering the systems that power credit decisions, registrations, and data exchange across the entire national financial ecosystem.
 
-Previously at **iFood Tech** (1 year), where I worked on order lifecycle services processing **~160M orders/month** with Java, Kotlin, and Go.
+Previously at **iFood Tech** (1 year), where I worked on order lifecycle services processing **~160M orders/month** with Java, Kotlin, and Go. Before that, built the **Sicredi X** BFF (~1M DAU) at **Compass UOL** using CQRS and Spring WebFlux.
 
 Strong expertise in **Spring ecosystem**, **microservices architecture**, **event-driven systems** (AWS SQS/SNS, Kafka, RabbitMQ), and **observability** (Datadog, Logz.io). Passionate about clean code, SOLID principles, Design Patterns, and continuous refactoring.
 
@@ -47,10 +47,17 @@ Also experienced in full-stack development with **Angular** and **Flutter** for 
 
 ## Professional Experience
 
-### iFood Tech — Backend Software Engineer
-`Jan 2025 - Present` | Java, Kotlin, Go | Remote
+### Nuclea (via Code Group) — Full Stack Java Developer
+`Jan 2026 - Present` | Java, Spring Boot, Angular | Hybrid, São Paulo
 
-- Building and maintaining order lifecycle services at scale (~160M orders/month)
+- Building and maintaining systems for Brazil's financial infrastructure — credit bureaus, registrations, and data exchange
+- Full-stack development with Java/Spring Boot backend and Angular frontend
+- Working on the systems that power credit decisions across the entire national financial ecosystem
+
+### iFood Tech — Backend Software Engineer
+`Jan 2025 - Dec 2025` | Java, Kotlin, Go | Remote
+
+- Built and maintained order lifecycle services at scale (~160M orders/month)
 - Implemented end-to-end tracing and log management with Logz.io (OpenSearch/Kibana)
 - Designed async integrations with AWS SNS->SQS (fanout) with resilience patterns (Timeout, Retries, Circuit Breaker, multi-Region)
 - Built 10+ Datadog dashboards correlating APM traces, p95/p99 latency, throughput, 4xx/5xx error rates, and alert monitors
@@ -65,13 +72,20 @@ Also experienced in full-stack development with **Angular** and **Flutter** for 
 - Transformed fixed models into generic, highly parameterizable templates, reducing manual effort in creating new ad pieces
 - Structured parameterization flows for multiple campaigns, accelerating ad variant generation
 
-### Compass UOL / PagSeguro Internacional — Trainee Software Engineer
-`Jan 2023 - Jan 2024` | Java | Remote
+### Compass UOL — Software Developer
+`Jun 2023 - Jan 2024` | Java, Spring WebFlux | Remote
 
-- Developed and maintained backend services for PagBank cross-border payments (international purchases and transfers)
+- Developed the **Sicredi X** BFF (Backend for Frontend) serving ~1M daily active users
+- Implemented CQRS architecture pattern for efficient read/write separation
+- Built reactive microservices with Spring WebFlux for high-throughput, non-blocking I/O
+- Integrated with Sicredi's core banking systems for real-time financial operations
+
+### Compass UOL — Software Engineering Intern
+`Jan 2023 - Jun 2023` | Java | Remote
+
+- Developed and maintained backend services for PagBank/PagSeguro cross-border payments (international purchases and transfers)
 - Designed integrations with global payment partners, FX providers, and acquirers for reliable routing, settlement, and reconciliation
 - Applied idempotent operations, retries with backoff, and strict KYC/KYB validations for payment security
-- Implemented monitoring, tracing, and alerts for international payment services, reducing incident detection and resolution time
 
 ---
 
