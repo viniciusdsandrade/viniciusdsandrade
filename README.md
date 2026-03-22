@@ -2,13 +2,12 @@
 
 # Vinicius dos Santos Andrade
 
-**Backend Software Engineer | Java, Kotlin & Go | 3.5+ years**
+**Backend Software Engineer | Java, Kotlin & Go | +4 years**
 
 Campinas, SP
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viniciusdsandrade/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/viniciusdsandrade/)
-[![Beecrowd](https://img.shields.io/badge/Beecrowd-%23333.svg?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=white)](https://judge.beecrowd.com/en/profile/viniciusdsandrade)
 
 </div>
 
@@ -32,7 +31,7 @@ Campinas, SP
 
 ## About me
 
-Backend Software Engineer with **3.5+ years** of professional experience building and maintaining high-scale distributed systems. Currently at **iFood Tech**, working on order lifecycle services processing **~160M orders/month** with Java, Kotlin, and Go.
+Backend Software Engineer with **+4 years** of professional experience building and maintaining high-scale distributed systems. Currently at **iFood Tech**, working on order lifecycle services processing **~160M orders/month** with Java, Kotlin, and Go.
 
 Strong expertise in **Spring ecosystem**, **microservices architecture**, **event-driven systems** (AWS SQS/SNS, Kafka, RabbitMQ), and **observability** (Datadog, Logz.io). Passionate about clean code, SOLID principles, Design Patterns, and continuous refactoring.
 
@@ -202,6 +201,5 @@ Also experienced in full-stack development with **Angular** and **Flutter** for 
 ## Competitive Programming
 
 - **LeetCode** — Active problem solving in algorithms and data structures
-- **Beecrowd** — Problems in Java, Python, C, SQL
 - **Interfatecs 2024 & 2025** — Inter-institutional programming competition
 - **Cracking the Coding Interview** — 189 problems solved in Java
