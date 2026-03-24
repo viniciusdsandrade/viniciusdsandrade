@@ -30,7 +30,7 @@ Previously at **iFood Tech** processing ~160M orders/month and **Compass UOL** b
 
 | Period | Company | Role | Highlight |
 |:------:|---------|------|-----------|
-| 2026 → now | **Nuclea** _(via Code Group)_ | Full Stack Java Developer | Mission-critical financial systems — OAuth2, AI document validation, CI/CD multi-cloud |
+| 2026 → now | **Nuclea** | Full Stack Java Developer | Mission-critical financial systems — OAuth2, AI document validation, CI/CD multi-cloud |
 | 2025 | **iFood Tech** | Backend Software Engineer | ~160M orders/month — distributed tracing, Datadog dashboards, Feature Flags (LaunchDarkly) |
 | 2024 | **Kepha Venture Builder** | Junior Software Engineer | Parameterizable ad templates — reduced manual effort by ~60% |
 | 2023 | **Compass UOL** | Software Developer / Intern | Sicredi X BFF (~1M DAU) with CQRS + WebFlux — PagBank cross-border payments |
@@ -39,7 +39,7 @@ Previously at **iFood Tech** processing ~160M orders/month and **Compass UOL** b
 <summary><b>Full details</b></summary>
 <br/>
 
-### Nuclea (via Code Group) — Full Stack Java Developer
+### Nuclea — Full Stack Java Developer
 `Jan 2026 - Present` · Java, Spring Boot 4, Angular 21 · Hybrid, Sao Paulo
 
 - Mission-critical systems for Brazil's financial data infrastructure (credit decisions, vehicle registration, data exchange)
