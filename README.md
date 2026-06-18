@@ -2,99 +2,99 @@
 
 # Vinicius dos Santos Andrade
 
-**Full Stack Java Developer | Java, Kotlin & TypeScript | +4 years**
+**Desenvolvedor Full Stack Java | Java, Kotlin & TypeScript | +4 anos**
 
-Building resilient financial, document-management, and high-scale backend systems.
+Construindo sistemas financeiros, documentais e backend de alta escala com resiliência.
 
-Campinas, SP, Brazil - Remote worldwide · Hybrid in Sao Paulo
+Campinas, SP, Brasil - Remoto mundial · Híbrido em São Paulo
 
-Open to Junior/Mid-level backend and full-stack roles.
+Aberto a vagas Júnior/Pleno backend e full-stack.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viniciusdsandrade/)
-[![Email](https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinicius.andrade.tech@gmail.com)
+[![E-mail](https://img.shields.io/badge/E--mail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinicius.andrade.tech@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/vinidsandrade/)
-[![Profile Views](https://komarev.com/ghpvc/?username=viniciusdsandrade&color=blueviolet&style=for-the-badge)](https://github.com/viniciusdsandrade)
+[![Visualizações do perfil](https://komarev.com/ghpvc/?username=viniciusdsandrade&label=Visualiza%C3%A7%C3%B5es&color=blueviolet&style=for-the-badge)](https://github.com/viniciusdsandrade)
 
 </div>
 
 ---
 
-## About
+## Sobre
 
-Software developer with a strong backend foundation in **Java**, **Kotlin**, **Spring**, REST APIs, microservices, and distributed systems. I work across the stack when needed, especially with **Angular**, and I like systems that are observable, testable, secure, and reliable in production.
+Desenvolvedor de software com base sólida em **Java**, **Kotlin**, **Spring**, APIs REST, microsserviços e sistemas distribuídos. Atuo em toda a stack quando necessário, especialmente com **Angular**, e gosto de sistemas observáveis, testáveis, seguros e confiáveis em produção.
 
-Currently working at **Code Group / Nuclea**, evolving mission-critical financial infrastructure around card clearing, settlement, reconciliation, billing, IBM MQ integrations, DB2 performance, and production diagnostics.
+Atualmente trabalho na **Code Group / Núclea**, evoluindo infraestrutura financeira mission-critical em compensação de cartões, liquidação, conciliação, faturamento, integrações IBM MQ, performance em DB2 e diagnósticos de produção.
 
-Previously at **iFood Tech**, supporting order lifecycle services in an operation of roughly **160M orders/month**, and at **Kepha Venture Builder** and **Compass UOL**, where I worked on Java systems, parameterized business flows, CQRS, WebFlux, and the Sicredi X BFF.
+Anteriormente atuei no **iFood Tech**, apoiando serviços do ciclo de vida de pedidos em uma operação de aproximadamente **160M pedidos/mês**, e também na **Kepha Venture Builder** e na **Compass UOL**, onde trabalhei com sistemas Java, fluxos de negócio parametrizados, CQRS, WebFlux e o BFF do Sicredi X.
 
-**Languages**: Portuguese (native) · English (B2) · Spanish (A2)
-
----
-
-## Impact Snapshot
-
-| Area | Evidence |
-|------|----------|
-| Financial systems | Maintained SLC card clearing and settlement flows under SPB protocol with Java, DB2, IBM WebSphere, and IBM MQ |
-| Performance | Reduced a critical DB2 reconciliation query from **14 minutes to 7 seconds** through access-plan analysis and SQL rewrite |
-| Scale | Worked on iFood order lifecycle services in a **~160M orders/month** operation |
-| Product ownership | Architected and built Alpha Prime Gestao ECV, a production SaaS for ISO 9001 document management and audit preparation |
-| Quality | Built systems with strong test discipline: JUnit 5, Mockito, REST Assured, Testcontainers, JaCoCo, Pitest, Vitest, and CI security gates |
+**Idiomas**: Português (nativo) · Inglês (B2) · Espanhol (A2)
 
 ---
 
-## Career
+## Resumo de impacto
 
-| Period | Company | Role | Highlights |
-|:------:|---------|------|------------|
-| 2026 - now | **Code Group / Nuclea** | Mid-Level Full Stack Java Developer | SLC card clearing/settlement, DB2 tuning, IBM MQ, WebSphere, billing, production diagnostics |
-| 2025 | **iFood Tech** | Junior Java/Kotlin Software Developer | Order lifecycle events, AWS SNS/SQS fanout, Logz.io, Datadog, p95/p99 observability, 95% branch coverage |
-| 2023 - 2025 | **Kepha Venture Builder** | Junior Java Software Developer | Java 17 advertising layout platform, generic templates, JSON-driven configuration, faster campaign generation |
-| 2023 | **Compass UOL** | Java Software Development Intern | Sicredi X BFF, CQRS, Spring WebFlux, PagBank/PagSeguro payment support, integration tests |
+| Área | Evidência |
+|------|-----------|
+| Sistemas financeiros | Sustentei fluxos de compensação e liquidação de cartões do SLC sob protocolo SPB com Java, DB2, IBM WebSphere e IBM MQ |
+| Performance | Reduzi uma consulta crítica de conciliação em DB2 de **14 minutos para 7 segundos** por análise de plano de acesso e reescrita de SQL |
+| Escala | Atuei em serviços do ciclo de vida de pedidos do iFood em uma operação de **~160M pedidos/mês** |
+| Construção de produto | Arquitetei e construí o Alpha Prime Gestão ECV, um SaaS em produção para gestão documental ISO 9001 e preparação de auditoria |
+| Qualidade | Construí sistemas com forte disciplina de testes: JUnit 5, Mockito, REST Assured, Testcontainers, JaCoCo, Pitest, Vitest e gates de segurança em CI |
+
+---
+
+## Carreira
+
+| Período | Empresa | Cargo | Destaques |
+|:-------:|---------|-------|-----------|
+| 2026 - atual | **Code Group / Núclea** | Desenvolvedor Full Stack Java Pleno | SLC, compensação/liquidação de cartões, tuning DB2, IBM MQ, WebSphere, faturamento, diagnósticos de produção |
+| 2025 | **iFood Tech** | Desenvolvedor Java/Kotlin Júnior | Eventos do ciclo de vida de pedidos, fanout AWS SNS/SQS, Logz.io, Datadog, observabilidade p95/p99, 95% de cobertura de branches |
+| 2023 - 2025 | **Kepha Venture Builder** | Desenvolvedor Java Júnior | Plataforma Java 17 para layouts publicitários, templates genéricos, configuração orientada a JSON, geração mais rápida de campanhas |
+| 2023 | **Compass UOL** | Estagiário em Desenvolvimento Java | BFF Sicredi X, CQRS, Spring WebFlux, suporte a pagamentos PagBank/PagSeguro, testes de integração |
 
 <details>
-<summary><b>Full professional details</b></summary>
+<summary><b>Detalhes profissionais completos</b></summary>
 <br/>
 
-### Code Group / Nuclea - Mid-Level Full Stack Java Developer
-`Jan 2026 - Present` · Java, Apache Wicket, DB2, IBM WebSphere, IBM MQ · Remote
+### Code Group / Núclea - Desenvolvedor Full Stack Java Pleno
+`Jan 2026 - atual` · Java, Apache Wicket, DB2, IBM WebSphere, IBM MQ · Remoto
 
-- Developed and maintained **SLC**, a mission-critical interbank card clearing and settlement platform under the Brazilian SPB protocol.
-- Worked with Java 8, Apache Wicket, DB2, IBM WebSphere, IBM MQ, cryptography, digital certificates, and financial reconciliation flows.
-- Investigated DB2 performance using catalog analysis, cardinality, access plans, and SQL rewrites, reducing a critical file query from **14 minutes to 7 seconds**.
-- Corrected the Base Centralizada query by replacing an inadequate source with a production-validated operational mirror, eliminating an N+1 pattern and keeping final response time below **3 seconds** without adding a new index.
-- Implemented the IAP card-brand billing module with progressive charging ranges, DB2 schema migration through Liquibase, and CSV/ZIP report generation.
-- Diagnosed repeated production deploy failures caused by JMS pool saturation at **300/300 connections**, using Tivoli Performance Viewer to document root cause, impact, and remediation.
+- Desenvolvi e sustentei o **SLC**, plataforma mission-critical de compensação e liquidação interbancária de cartões sob protocolo SPB.
+- Trabalhei com Java 8, Apache Wicket, DB2, IBM WebSphere, IBM MQ, criptografia, certificados digitais e fluxos de conciliação financeira.
+- Investiguei performance em DB2 com análise de catálogo, cardinalidade, planos de acesso e reescrita de SQL, reduzindo uma consulta crítica de arquivos de **14 minutos para 7 segundos**.
+- Corrigi a consulta da Base Centralizada substituindo uma fonte inadequada por um espelho operacional validado em produção, eliminando um padrão N+1 e mantendo a resposta final abaixo de **3 segundos** sem adicionar novo índice.
+- Implementei o módulo de faturamento IAP das bandeiras de cartão com faixas progressivas de cobrança, migração de schema DB2 via Liquibase e geração de relatórios CSV/ZIP.
+- Diagnostiquei falhas consecutivas de deploy em produção causadas por saturação do pool JMS em **300/300 conexões**, usando Tivoli Performance Viewer para documentar causa raiz, impacto e correção.
 
-### iFood Tech - Junior Java/Kotlin Software Developer
-`Jan 2025 - Dec 2025` · Java, Kotlin, AWS SNS/SQS, Datadog, Logz.io · Remote
+### iFood Tech - Desenvolvedor Java/Kotlin Júnior
+`Jan 2025 - Dez 2025` · Java, Kotlin, AWS SNS/SQS, Datadog, Logz.io · Remoto
 
-- Implemented new order lifecycle events with end-to-end traceability and centralized logs over Logz.io, OpenSearch, and Kibana.
-- Modeled asynchronous AWS SNS to SQS fanout integrations with timeout, retries, circuit breaker, and multi-region resilience patterns.
-- Built 10 Datadog dashboards correlating APM traces, p95/p99 latency, traffic, throughput, 4xx/5xx error rates, and saturation metrics.
-- Added unit and integration tests with JUnit 5, Mockito, REST Assured, and JaCoCo, raising critical-module branch coverage to around **95%**.
+- Implementei novos eventos do ciclo de vida de pedidos com rastreabilidade ponta a ponta e logs centralizados em Logz.io, OpenSearch e Kibana.
+- Modelei integrações assíncronas AWS SNS para SQS em fanout com timeout, retries, circuit breaker e padrões de resiliência multi-região.
+- Construí 10 dashboards no Datadog correlacionando traces APM, latência p95/p99, tráfego, vazão, taxas de erro 4xx/5xx e métricas de saturação.
+- Adicionei testes unitários e de integração com JUnit 5, Mockito, REST Assured e JaCoCo, elevando a cobertura de branches de módulos críticos para cerca de **95%**.
 
-### Kepha Venture Builder - Junior Java Software Developer
-`Jul 2023 - Jan 2025` · Java 17 · Remote
+### Kepha Venture Builder - Desenvolvedor Java Júnior
+`Jul 2023 - Jan 2025` · Java 17 · Remoto
 
-- Maintained production systems for advertising layout processing across multiple client campaigns.
-- Transformed fixed layout models into generic, parameterizable templates with JSON-driven configuration.
-- Reduced manual effort in the creation of new ad variants and helped remove bottlenecks between design and operations.
+- Mantive sistemas em produção para processamento de layouts publicitários em múltiplas campanhas de clientes.
+- Transformei modelos fixos de layout em templates genéricos e parametrizáveis com configuração orientada a JSON.
+- Reduzi esforço manual na criação de novas variantes de anúncios e ajudei a remover gargalos entre design e operações.
 
-### Compass UOL - Java Software Development Intern
-`Jan 2023 - Jul 2023` · Java, Spring WebFlux · Remote
+### Compass UOL - Estagiário em Desenvolvimento Java
+`Jan 2023 - Jul 2023` · Java, Spring WebFlux · Remoto
 
-- Supported a CQRS architecture processing thousands of requests per minute.
-- Helped cover central APIs with unit and integration tests, contributing to more than 80% coverage.
-- Participated in the development and maintenance of the **Sicredi X** Backend-for-Frontend, serving around **1M daily active users**.
+- Apoiei uma arquitetura CQRS que processava milhares de requisições por minuto.
+- Ajudei a cobrir APIs centrais com testes unitários e de integração, contribuindo para mais de 80% de cobertura.
+- Participei do desenvolvimento e manutenção do Backend-for-Frontend **Sicredi X**, usado por cerca de **1M usuários ativos por dia**.
 
 </details>
 
 ---
 
-## Tech Stack
+## Stack técnico
 
-#### Languages & Application Development
+#### Linguagens e desenvolvimento de aplicações
 
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
@@ -107,7 +107,7 @@ Previously at **iFood Tech**, supporting order lifecycle services in an operatio
 ![Apache Wicket](https://img.shields.io/badge/Apache%20Wicket-%23D22128.svg?style=for-the-badge&logo=apache&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 
-#### Data, Messaging & Infrastructure
+#### Dados, mensageria e infraestrutura
 
 ![DB2](https://img.shields.io/badge/IBM%20DB2-%23052FAD.svg?style=for-the-badge&logo=ibm&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -124,7 +124,7 @@ Previously at **iFood Tech**, supporting order lifecycle services in an operatio
 ![AWS Lightsail](https://img.shields.io/badge/AWS%20Lightsail-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-%23F38020.svg?style=for-the-badge&logo=cloudflarepages&logoColor=white)
 
-#### Quality, Delivery & Observability
+#### Qualidade, entrega e observabilidade
 
 ![JUnit 5](https://img.shields.io/badge/JUnit%205-%2325A162.svg?style=for-the-badge&logo=junit5&logoColor=white)
 ![Mockito](https://img.shields.io/badge/Mockito-%2378A641.svg?style=for-the-badge)
@@ -142,20 +142,20 @@ Previously at **iFood Tech**, supporting order lifecycle services in an operatio
 
 ---
 
-## Featured Projects
+## Projetos em destaque
 
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [**Alpha Prime Gestao ECV**](https://github.com/viniciusdsandrade/ecv-document-portal) · [Live](https://iso9001vistoriaveicular.com.br/) | Kotlin · Spring Boot 4 · Angular 21 · MySQL · AWS · Cloudflare | Production SaaS for ISO 9001 document management, audit preparation, AI-assisted validation, OAuth2/JWT, MFA, RBAC, encrypted uploads, Outbox messaging, WhatsApp/email automation, and PIX billing foundations |
-| [**DSCommerce**](https://github.com/viniciusdsandrade/dscommerce-with-spring) | Java · Spring Boot | E-commerce backend with catalog, order, role-based access, and REST API patterns |
-| [**Voll Med API**](https://github.com/viniciusdsandrade/voll-med-api-with-spring) | Java · Spring Boot · MySQL | REST API for medical clinic scheduling and patient records |
-| [**Spring Security**](https://github.com/viniciusdsandrade/spring-security-with-java-and-kotlin) | Java · Kotlin · Spring Security | OAuth2/JWT authentication and authorization examples |
-| [**DS&A Expert**](https://github.com/viniciusdsandrade/data-structures-and-algorithms-expert) | Java | Data structures and algorithms implemented from scratch |
-| [**LeetCode Solutions**](https://github.com/viniciusdsandrade/leetcode-problems) | Java | Algorithm problem solutions and practice notes |
+| Projeto | Stack | Descrição |
+|---------|-------|-----------|
+| [**Alpha Prime Gestão ECV**](https://github.com/viniciusdsandrade/ecv-document-portal) · [Produção](https://iso9001vistoriaveicular.com.br/) | Kotlin · Spring Boot 4 · Angular 21 · MySQL · AWS · Cloudflare | SaaS em produção para gestão documental ISO 9001, preparação de auditoria, validação assistida por IA, OAuth2/JWT, MFA, RBAC, uploads criptografados, mensageria Outbox, automação WhatsApp/e-mail e fundação de cobrança PIX |
+| [**DSCommerce**](https://github.com/viniciusdsandrade/dscommerce-with-spring) | Java · Spring Boot | Backend de e-commerce com catálogo, pedidos, acesso baseado em papéis e padrões de API REST |
+| [**Voll Med API**](https://github.com/viniciusdsandrade/voll-med-api-with-spring) | Java · Spring Boot · MySQL | API REST para agendamento de clínica médica e registros de pacientes |
+| [**Spring Security**](https://github.com/viniciusdsandrade/spring-security-with-java-and-kotlin) | Java · Kotlin · Spring Security | Exemplos de autenticação e autorização com OAuth2/JWT |
+| [**DS&A Expert**](https://github.com/viniciusdsandrade/data-structures-and-algorithms-expert) | Java | Estruturas de dados e algoritmos implementados do zero |
+| [**LeetCode Solutions**](https://github.com/viniciusdsandrade/leetcode-problems) | Java | Soluções de problemas de algoritmo e notas de prática |
 
 ---
 
-## GitHub Stats
+## Estatísticas do GitHub
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=viniciusdsandrade&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="180"/>
@@ -173,14 +173,14 @@ Previously at **iFood Tech**, supporting order lifecycle services in an operatio
 
 <div align="center">
 
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=viniciusdsandrade&theme=tokyo-night&hide_border=true)
+![Gráfico de contribuições](https://github-readme-activity-graph.vercel.app/graph?username=viniciusdsandrade&theme=tokyo-night&hide_border=true)
 
 </div>
 
 ---
 
-## Education & Courses
+## Formação e cursos
 
-**Systems Analysis and Development** - FATEC SP (expected Dec 2025) · **Systems Development Technician** - COTUCA/UNICAMP (completed Dec 2024)
+**Análise e Desenvolvimento de Sistemas** - FATEC SP (conclusão: dez/2025) · **Técnico em Desenvolvimento de Sistemas** - COTUCA/UNICAMP (concluído: dez/2024)
 
-**Courses**: Microservices Specialist - AlgaWorks (210h) · FullCycle 4.0 · Spring Boot & Spring Framework REST API - DevSuperior (320h)
+**Cursos**: Especialista em Microsserviços - AlgaWorks (210h) · FullCycle 4.0 · Spring Boot & Spring Framework REST API - DevSuperior (320h)
