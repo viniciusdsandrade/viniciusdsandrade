@@ -37,13 +37,39 @@ Desenvolvedor com **4 anos em backend Java/Spring** e atuação full stack em An
 
 ## Trajetória
 
-`2026-atual` **Code Group / Núclea** · `2025` **iFood Tech** · `2023-2025` **Kepha Venture Builder** · `2023` **Compass UOL**
+- `2026-atual` **Code Group / Núclea**
+- `2025` **iFood Tech**
+- `2023-2025` **Kepha Venture Builder**
+- `2023` **Compass UOL**
 
 ---
 
 ## Stack principal
 
-Java · Kotlin · TypeScript · Spring Boot · Spring Security · WebFlux · Spring AI · Angular · DB2 · PostgreSQL · MySQL · Redis · Flyway · Liquibase · IBM MQ · AWS SNS/SQS · RabbitMQ · Docker · Nginx · Cloudflare Pages · Datadog · Logz.io · SonarQube · Trivy
+- Java
+- Kotlin
+- TypeScript
+- Spring Boot
+- Spring Security
+- WebFlux
+- Spring AI
+- Angular
+- DB2
+- PostgreSQL
+- MySQL
+- Redis
+- Flyway
+- Liquibase
+- IBM MQ
+- AWS SNS/SQS
+- RabbitMQ
+- Docker
+- Nginx
+- Cloudflare Pages
+- Datadog
+- Logz.io
+- SonarQube
+- Trivy
 
 ---
 
@@ -59,4 +85,8 @@ Outros repositórios: [DSCommerce](https://github.com/viniciusdsandrade/dscommer
 
 ## Formação
 
-**ADS** - FATEC SP, conclusão dez/2025 · **Técnico em Desenvolvimento de Sistemas** - COTUCA/UNICAMP, dez/2024 · AlgaWorks Microsserviços · FullCycle 4.0 · DevSuperior Spring Boot REST API
+- **ADS** - FATEC SP, conclusão dez/2025
+- **Técnico em Desenvolvimento de Sistemas** - COTUCA/UNICAMP, dez/2024
+- AlgaWorks Microsserviços
+- FullCycle 4.0
+- DevSuperior Spring Boot REST API
