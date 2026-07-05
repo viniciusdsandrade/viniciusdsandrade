@@ -2,10 +2,10 @@
 
 # Vinicius dos Santos Andrade
 
-**Backend Java/Spring com atuação full stack | Kotlin · Angular · sistemas financeiros**
+**Backend Java/Spring | sistemas financeiros críticos | Kotlin · Angular**
 
-Campinas, SP, Brasil · Híbrido em SP · Remoto mundial<br>
-Aberto a posições Backend/Full Stack Júnior-Pleno
+Campinas, SP · Híbrido/Remoto<br>
+Backend/Full Stack Júnior-Pleno
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viniciusdsandrade/)
 [![E-mail](https://img.shields.io/badge/E--mail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinicius.andrade.tech@gmail.com)
@@ -17,9 +17,9 @@ Aberto a posições Backend/Full Stack Júnior-Pleno
 
 ## Perfil
 
-Desenvolvedor com **4 anos em backend Java/Spring** e atuação full stack em Angular. Trabalho com APIs RESTful, microsserviços, SOLID, mensageria, Docker, CI/CD e observabilidade. Hoje evoluo sistemas financeiros mission-critical na **Code Group / Núclea**; antes, atuei no **iFood Tech** em serviços de pedidos (**~160M/mês**).
+Backend Java/Spring com **4 anos** entregando APIs, microsserviços e integrações financeiras com mensageria, CI/CD, observabilidade e segurança de produção. Atuo na **Code Group / Núclea**; antes, escalei pedidos no **iFood Tech** (**~160M/mês**).
 
-**Idiomas**: Português nativo · Inglês B2 · Espanhol A2
+**Idiomas**: PT-BR nativo · EN B2 · ES A2
 
 ---
 
@@ -27,11 +27,11 @@ Desenvolvedor com **4 anos em backend Java/Spring** e atuação full stack em An
 
 | Frente | Evidência |
 |--------|-----------|
-| Núclea | SLC sob SPB com Java 8, Wicket, DB2, WebSphere, IBM MQ e certificados |
-| Performance | SQL DB2 de **14min para 7s**; outra consulta abaixo de **3s** sem novo índice |
-| iFood | Eventos de pedidos, fanout SNS/SQS, tracing, Logz.io e Datadog p95/p99 |
-| Alfha Prime | SaaS ISO 9001 com OAuth2/JWT, MFA, RBAC, LGPD, IA/OCR, Outbox e PIX; revisão **8h -> 30-90min** |
-| Qualidade | JUnit, Mockito, Testcontainers, REST Assured, JaCoCo, Pitest, Vitest, SonarQube, Trivy e CI |
+| Núclea | SLC/SPB com Java 8, DB2, WebSphere, IBM MQ e certificados |
+| Performance | DB2: **14min -> 7s**; outra consulta abaixo de **3s**, sem novo índice |
+| iFood | Pedidos em escala, fanout SNS/SQS, tracing e p95/p99 |
+| Alfha Prime | SaaS ISO 9001 com RBAC, MFA, IA/OCR, Outbox e PIX; revisão **8h -> 30-90min** |
+| Qualidade | Testes, cobertura, mutation, SonarQube/Trivy e CI |
 
 ---
 
@@ -48,23 +48,16 @@ Desenvolvedor com **4 anos em backend Java/Spring** e atuação full stack em An
 
 | Grupo | Habilidades |
 |-------|-------------|
-| Linguagens | Java · Kotlin · TypeScript |
-| Backend | Spring Boot · Spring Security · WebFlux · Spring AI |
-| Frontend | Angular |
-| Dados | DB2 · PostgreSQL · MySQL · Redis · Flyway · Liquibase |
-| Mensageria | IBM MQ · AWS SNS/SQS · RabbitMQ |
-| Infra | Docker · Nginx · Cloudflare Pages |
-| Observabilidade e qualidade | Datadog · Logz.io · SonarQube · Trivy |
+| Backend | Java · Kotlin · Spring Boot · Spring Security · WebFlux · Spring AI |
+| Frontend | TypeScript · Angular |
+| Dados e mensageria | DB2 · PostgreSQL · MySQL · Redis · Flyway · Liquibase · IBM MQ · AWS SNS/SQS · RabbitMQ |
+| Infra e qualidade | Docker · Nginx · Cloudflare Pages · Datadog · Logz.io · SonarQube · Trivy |
 
 ---
 
 ## Projeto em destaque
 
-| Projeto | Stack | Valor |
-|---------|-------|-------|
-| [Alfha Prime Gestão ECV](https://github.com/viniciusdsandrade/ecv-document-portal) · [produção](https://iso9001vistoriaveicular.com.br/) | Kotlin · Spring Boot 4 · Angular 21 · MySQL · AWS · Cloudflare | Plataforma full stack para gestão documental ISO 9001, documentos criptografados, validação por IA multimodal, Outbox, WhatsApp/e-mail e cobrança PIX |
-
-Outros repositórios: [DSCommerce](https://github.com/viniciusdsandrade/dscommerce-with-spring) · [DS&A Expert](https://github.com/viniciusdsandrade/data-structures-and-algorithms-expert)
+**Alfha Prime Gestão ECV** ([repo](https://github.com/viniciusdsandrade/ecv-document-portal) · [produção](https://iso9001vistoriaveicular.com.br/)): SaaS ISO 9001 em Kotlin/Spring Boot 4 e Angular 21, com criptografia, IA multimodal, Outbox, WhatsApp/e-mail e PIX.
 
 ---
 
