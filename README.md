@@ -46,30 +46,15 @@ Desenvolvedor com **4 anos em backend Java/Spring** e atuação full stack em An
 
 ## Stack principal
 
-- Java
-- Kotlin
-- TypeScript
-- Spring Boot
-- Spring Security
-- WebFlux
-- Spring AI
-- Angular
-- DB2
-- PostgreSQL
-- MySQL
-- Redis
-- Flyway
-- Liquibase
-- IBM MQ
-- AWS SNS/SQS
-- RabbitMQ
-- Docker
-- Nginx
-- Cloudflare Pages
-- Datadog
-- Logz.io
-- SonarQube
-- Trivy
+| Grupo | Habilidades |
+|-------|-------------|
+| Linguagens | Java · Kotlin · TypeScript |
+| Backend | Spring Boot · Spring Security · WebFlux · Spring AI |
+| Frontend | Angular |
+| Dados | DB2 · PostgreSQL · MySQL · Redis · Flyway · Liquibase |
+| Mensageria | IBM MQ · AWS SNS/SQS · RabbitMQ |
+| Infra | Docker · Nginx · Cloudflare Pages |
+| Observabilidade e qualidade | Datadog · Logz.io · SonarQube · Trivy |
 
 ---
 
