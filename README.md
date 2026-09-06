@@ -17,7 +17,7 @@ Backend/Full Stack Júnior-Pleno
 
 ## Perfil
 
-Backend Java/Spring com **4 anos** entregando APIs, microsserviços e integrações financeiras com mensageria, CI/CD, observabilidade e segurança de produção. Atuo na **Code Group / Núclea**; antes, escalei pedidos no **iFood Tech** (**~160M/mês**).
+Backend Java/Spring com **4 anos** entregando APIs, microsserviços e integrações financeiras com mensageria, CI/CD, observabilidade e segurança de produção. Atuo na **K2 Partnering Solutions / Pluxee** e na **NTConsult / Agibank**; antes, evoluí sistemas financeiros na **Code Group / Núclea** e escalei pedidos no **iFood Tech** (**~160M/mês**).
 
 **Idiomas**: PT-BR nativo · EN B2 · ES A2
 
@@ -37,7 +37,9 @@ Backend Java/Spring com **4 anos** entregando APIs, microsserviços e integraç�
 
 ## Trajetória
 
-- `2026-atual` **Code Group / Núclea**
+- `2026-atual` **K2 Partnering Solutions / Pluxee**
+- `2026-atual` **NTConsult / Agibank**
+- `2026` **Code Group / Núclea**
 - `2025` **iFood Tech**
 - `2023-2025` **Kepha Venture Builder**
 - `2023` **Compass UOL**
