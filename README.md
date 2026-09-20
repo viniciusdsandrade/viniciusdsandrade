@@ -5,7 +5,7 @@
 **Backend Java/Spring | sistemas financeiros críticos | Kotlin · Angular**
 
 Campinas, SP · Híbrido/Remoto<br>
-Backend/Full Stack Júnior-Pleno
+Backend/Full Stack Pleno
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viniciusdsandrade/)
 [![E-mail](https://img.shields.io/badge/E--mail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinicius.andrade.tech@gmail.com)
@@ -27,6 +27,7 @@ Backend Java/Spring com **4 anos** entregando APIs, microsserviços e integraç�
 
 | Frente | Evidência |
 |--------|-----------|
+| Agibank | Consignado CLT/Dataprev (Java 21, Kafka), automação de averbação (Strategy), Camunda e FICO Blaze |
 | Núclea | SLC/SPB com Java 8, DB2, WebSphere, IBM MQ e certificados |
 | Performance | DB2: **14min -> 7s**; outra consulta abaixo de **3s**, sem novo índice |
 | iFood | Pedidos em escala, fanout SNS/SQS, tracing e p95/p99 |
@@ -50,10 +51,10 @@ Backend Java/Spring com **4 anos** entregando APIs, microsserviços e integraç�
 
 | Grupo | Habilidades |
 |-------|-------------|
-| Backend | Java · Kotlin · Spring Boot · Spring Security · WebFlux · Spring AI |
+| Backend | Java · Kotlin · Spring Boot · Spring Security · WebFlux · Spring AI · Camunda · FICO Blaze Advisor |
 | Frontend | TypeScript · Angular |
-| Dados e mensageria | DB2 · PostgreSQL · MySQL · Redis · Flyway · Liquibase · IBM MQ · AWS SNS/SQS · RabbitMQ |
-| Infra e qualidade | Docker · Nginx · Cloudflare Pages · Datadog · Logz.io · SonarQube · Trivy |
+| Dados e mensageria | Kafka · DB2 · PostgreSQL · MySQL · Redis · Flyway · Liquibase · IBM MQ · AWS SNS/SQS · RabbitMQ |
+| Infra e qualidade | Docker · Kubernetes (AWS EKS) · GitLab CI · Consul · Vault · Nginx · Cloudflare Pages · Datadog · OpenSearch · Logz.io · SonarQube · Trivy · Pitest · JMeter |
 
 ---
 
