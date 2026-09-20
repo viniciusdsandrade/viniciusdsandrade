@@ -1,6 +1,6 @@
 <div align="center">
 
-# Vinicius dos Santos Andrade
+# Vinícius Andrade
 
 **Backend Java/Spring | sistemas financeiros críticos | Kotlin · Angular**
 
