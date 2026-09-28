@@ -66,6 +66,6 @@ Atendo pela [DEVANDRADE TECH](https://devandrade.tech): diagnóstico de sistemas
 
 ## Formação
 
-- **ADS** - FATEC SP, conclusão dez/2025
+- **ADS** - FATEC Campinas, conclusão dez/2025
 - **Técnico em Desenvolvimento de Sistemas** - COTUCA/UNICAMP, dez/2024
 - AlgaWorks Microsserviços · FullCycle 4.0 · DevSuperior Spring Boot REST API
