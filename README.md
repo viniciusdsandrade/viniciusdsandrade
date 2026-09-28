@@ -33,7 +33,7 @@ Atendo pela [DEVANDRADE TECH](https://devandrade.tech): diagnóstico de sistemas
 | Padrão N+1 numa consulta de alto volume, no mesmo sistema | Abaixo de **3 s**, sem índice novo |
 | Deploys falhando em sequência em produção | Causa raiz evidenciada (pool de conexões de mensageria saturado), o que destravou a correção |
 | Eventos do ciclo de vida do pedido numa plataforma com milhões de pedidos por dia | Rastreamento ponta a ponta, fanout SNS→SQS multirregião com retries e circuit breaker, golden signals no Datadog e ~95% de cobertura de branches nos módulos críticos |
-| Revisão documental manual num SaaS de auditoria ISO 9001 (produto próprio, sócio e responsável técnico) | De **8 h para 30–90 min** com IA multimodal e OCR; segurança fail-closed (OAuth2/JWT, MFA, RBAC, AES-GCM, antivírus no upload); outbox transacional; 95% de cobertura de testes, com teste de mutação |
+| Revisão documental manual num SaaS de auditoria ISO 9001 (produto próprio, sócio e responsável técnico) | De **8 h para 30–90 min** com IA multimodal e OCR; 95% de cobertura de testes, com teste de mutação |
 
 ---
 
@@ -60,7 +60,7 @@ Atendo pela [DEVANDRADE TECH](https://devandrade.tech): diagnóstico de sistemas
 
 ## Projeto em destaque
 
-**Alfha Prime Gestão ECV** ([produção](https://iso9001vistoriaveicular.com.br/)): SaaS de gestão documental e auditoria ISO 9001 em Kotlin/Spring Boot e Angular, com criptografia, IA multimodal, outbox transacional, WhatsApp/e-mail e PIX. Sou sócio e responsável técnico; o código é privado.
+**Alfha Prime Gestão ECV** ([produção](https://iso9001vistoriaveicular.com.br/)): SaaS de gestão documental e auditoria ISO 9001 em Kotlin/Spring Boot e Angular, com segurança fail-closed (OAuth2/JWT, MFA, RBAC, AES-GCM, antivírus no upload), IA multimodal, outbox transacional, WhatsApp/e-mail e PIX. Sou sócio e responsável técnico; o código é privado.
 
 ---
 
