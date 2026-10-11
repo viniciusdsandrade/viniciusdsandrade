@@ -17,9 +17,9 @@ Campinas, SP · remoto ou híbrido em SP · [devandrade.tech](https://devandrade
 
 ## O que eu faço
 
-Desenvolvo e sustento backends em Java e Kotlin que movimentam dinheiro e pedidos em volume: liquidação de pagamentos, crédito, benefícios e uma plataforma de consumo com milhões de pedidos por dia. Trabalho com Spring, mensageria (Kafka, IBM MQ, SNS/SQS), bancos relacionais e observabilidade, e deixo teste, runbook e decisão registrada para quem vem depois.
+Desenvolvo e sustento backends em Java e Kotlin que movimentam dinheiro e pedidos em volume: crédito consignado CLT integrado à Dataprev, liquidação do arranjo de pagamento de benefícios, liquidação interbancária de cartões no SPB e eventos de pedido numa plataforma com ~160 milhões de pedidos por mês. Trabalho com Spring Boot, mensageria (Kafka, IBM MQ, SNS/SQS, Azure Service Bus), SQL e observabilidade, e deixo teste, runbook e decisão registrada para quem vem depois.
 
-Atendo pela [DEVANDRADE TECH](https://devandrade.tech): diagnóstico de sistemas críticos, execução no time do cliente e segunda opinião de arquitetura.
+Atuo como PJ pela [DEVANDRADE TECH](https://devandrade.tech), atendendo clientes do setor financeiro e de benefícios, e conduzo o desenvolvimento do Alpha Prime, SaaS do qual sou sócio.
 
 **Idiomas:** PT-BR nativo · EN B2 · ES A2
 
@@ -27,45 +27,57 @@ Atendo pela [DEVANDRADE TECH](https://devandrade.tech): diagnóstico de sistemas
 
 ## Resultados
 
-| Problema | Resultado |
+| Contexto | Resultado |
 |---|---|
-| Consulta crítica de conciliação num sistema de liquidação financeira | De **14 min para 7 s**: reescrita de SQL, decomposição em fases e índice composto validado no plano de execução |
-| Padrão N+1 numa consulta de alto volume, no mesmo sistema | Abaixo de **3 s**, sem índice novo |
-| Deploys falhando em sequência em produção | Causa raiz evidenciada (pool de conexões de mensageria saturado), o que destravou a correção |
-| Eventos do ciclo de vida do pedido numa plataforma com milhões de pedidos por dia | Rastreamento ponta a ponta, fanout SNS→SQS multirregião com retries e circuit breaker, golden signals no Datadog e ~95% de cobertura de branches nos módulos críticos |
-| Revisão documental manual num SaaS de auditoria ISO 9001 (produto próprio, sócio e responsável técnico) | De **8 h para 30–90 min** com IA multimodal e OCR; 95% de cobertura de testes, com teste de mutação |
+| Consulta crítica de conciliação na liquidação interbancária de cartões (SPB) | De **14 min para 7 s** (120×) com reescrita de SQL, decomposição em fases e índice composto validado no plano de execução |
+| N+1 numa consulta de alto volume no mesmo sistema | Resposta abaixo de **3 s**, sem índice novo nem DBA |
+| Deploys falhando em sequência em produção | Causa raiz encontrada (pool JMS saturado, 300/300 conexões), o que destravou os rollouts |
+| Erro de duplicidade da Dataprev na averbação do consignado | Tratamento automatizado (Strategy e testes de mutação) que **acabou com a aprovação manual** de contratos parados em erro |
+| ~3% de HTTP 500 na averbação em teste de carga | Causa isolada: conflito de optimistic locking no MongoDB |
+| Eventos do ciclo de vida do pedido (~160 milhões de pedidos/mês) | Tracing ponta a ponta, fanout SNS→SQS multirregião com retries e circuit breaker, golden signals no Datadog e ~95% de cobertura de branches |
+| Auditoria documental manual num SaaS ISO 9001 (produto próprio) | De **8 h para 30–90 min** com OCR e IA multimodal; 95% de cobertura e testes de mutação |
+
+---
+
+## Código aberto
+
+**68 PRs aceitos** em dois projetos em Rust de [Fabio Akita](https://github.com/akitaonrails):
+
+- **[ai-memory](https://github.com/akitaonrails/ai-memory)** ([meus PRs](https://github.com/akitaonrails/ai-memory/pulls?q=is%3Apr+author%3Aviniciusdsandrade)): memória de longo prazo e handoff entre CLIs de agentes de código, via MCP e HTTP. Implementei o `memory_handoff_list`, o desligamento limpo em SIGINT/SIGTERM, o scrub-before-cap de segredos, o namespace por usuário na exclusão de páginas e a restauração de backup com verificação.
+- **[ai-usagebar](https://github.com/akitaonrails/ai-usagebar)** ([meus PRs](https://github.com/akitaonrails/ai-usagebar/pulls?q=is%3Apr+author%3Aviniciusdsandrade)): monitor de cotas e créditos de planos de IA para Linux, macOS e Windows. Implementei contas nomeadas por provedor com detecção no Keychain do macOS, expurgo de segredos em subprocessos e mensagens de erro, e pacote AUR com verificação de assinatura PGP.
 
 ---
 
 ## Trajetória
 
-- `2026–atual` **K2 Partnering Solutions / Pluxee** e **NTConsult / Agibank** — benefícios e crédito consignado (Java 21, Kafka, Camunda, FICO Blaze)
-- `2026` **Code Group / Núclea**
-- `2025` **iFood**
-- `2023–2025` **Kepha Venture Builder**
-- `2023` **Compass UOL** (estágio)
+- `ago/2026–atual` **DEVANDRADE TECH** (PJ): K2 Partnering Solutions / Pluxee, liquidação de benefícios · NTConsult / Agibank, crédito consignado CLT · Alpha Prime, sócio e responsável técnico
+- `jan/2026–ago/2026` **Code Group / Núclea**: liquidação interbancária de cartões no SPB
+- `jan/2025–jan/2026` **iFood**: eventos do ciclo de vida do pedido
+- `jun/2023–jan/2025` **Kepha Venture Builder**: renderização de layouts publicitários
 
 ---
 
 ## Stack
 
 | Grupo | Ferramentas |
-|-------|-------------|
-| Backend | Java · Kotlin · Spring Boot · Spring Security · WebFlux · Spring AI · Camunda · FICO Blaze Advisor |
-| Dados e mensageria | Kafka · IBM MQ · AWS SNS/SQS · RabbitMQ · DB2 · PostgreSQL · MySQL · Redis · Flyway · Liquibase |
-| Infra e qualidade | Docker · Kubernetes (AWS EKS) · GitLab CI · GitHub Actions · Consul · Vault · Nginx · Cloudflare Pages · Datadog · OpenSearch · Logz.io · SonarQube · Trivy · Pitest · JMeter |
-| Frontend, quando precisa | TypeScript · Angular |
+|---|---|
+| Linguagens | Java (8 a 25) · Kotlin · SQL · Rust · TypeScript |
+| Backend | Spring Boot · Spring Security · Spring Data JPA · WebFlux · Spring AI · Camunda · FICO Blaze Advisor · arquitetura hexagonal · Outbox |
+| Dados e mensageria | Kafka · IBM MQ · AWS SNS/SQS · Azure Service Bus · RabbitMQ · DB2 · PostgreSQL · MongoDB · MySQL · Redis · Flyway · Liquibase |
+| Infra e observabilidade | Docker · Kubernetes (AWS EKS e Azure) · GitHub Actions · GitLab CI · Consul · Vault · Nginx · Cloudflare Pages · Datadog · Grafana · OpenSearch · Logz.io |
+| Qualidade | JUnit 5 · Mockito · Testcontainers · ArchUnit · JaCoCo · Pitest · JMeter · SonarQube · Trivy |
+| Frontend e mobile, quando precisa | Angular · SwiftUI · Jetpack Compose |
 
 ---
 
 ## Projeto em destaque
 
-**Alfha Prime Gestão ECV** ([produção](https://iso9001vistoriaveicular.com.br/)): SaaS de gestão documental e auditoria ISO 9001 em Kotlin/Spring Boot e Angular, com segurança fail-closed (OAuth2/JWT, MFA, RBAC, AES-GCM, antivírus no upload), IA multimodal, outbox transacional, WhatsApp/e-mail e PIX. Sou sócio e responsável técnico; o código é privado.
+**Alpha Prime Gestão ECV** ([produção](https://iso9001vistoriaveicular.com.br/)): SaaS de gestão documental e auditoria ISO 9001 para empresas credenciadas de vistoria veicular, com faturamento recorrente. Backend em Kotlin e Spring Boot 4, web em Angular 21 e apps nativos iOS e Android; segurança fail-closed (OAuth2/JWT, MFA, RBAC, AES-GCM, antivírus no upload), IA multimodal com failover entre provedores e outbox transacional com 13 workers (WhatsApp, e-mail, PIX). Sou sócio e responsável técnico; o código é privado.
 
 ---
 
 ## Formação
 
-- **ADS** - FATEC Campinas, conclusão dez/2025
-- **Técnico em Desenvolvimento de Sistemas** - COTUCA/UNICAMP, dez/2024
-- AlgaWorks Microsserviços · FullCycle 4.0 · DevSuperior Spring Boot REST API
+- **Análise e Desenvolvimento de Sistemas**, FATEC Campinas, conclusão prevista para dez/2026
+- **Técnico em Desenvolvimento de Sistemas**, COTUCA/UNICAMP, dez/2024
+- AlgaWorks Especialista em Microsserviços (650 h) · FullCycle 4.0 (380 h) · DevSuperior Spring Boot (320 h)
