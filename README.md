@@ -61,7 +61,7 @@ Atuo como PJ pela [DEVANDRADE TECH](https://devandrade.tech), atendendo clientes
     - Desenvolvimento e evolução de microsserviços de averbação, refinanciamento e CCB integrados à Dataprev (Java 21, Spring Boot, Kafka, Camunda, MongoDB em AWS EKS).
     - Modelagem do refinanciamento N:1 com regras de elegibilidade e precificação no FICO Blaze Advisor (SRL) e tratamento de duplicidade via padrão Strategy com testes de mutação (Pitest), eliminando 100% da aprovação manual de contratos parados em erro.
     - Sustentação em produção dos fluxos orquestrados no Camunda via scripts sobre a REST API do engine com dry run; diagnóstico de concorrência (*optimistic locking*) no MongoDB sob carga.
-  - **Alpha Prime** (`2024–atual`) · *Sócio e responsável técnico*
+  - **Alpha Prime Gestão ECV** (`jan/2026–atual`) · *Sócio e responsável técnico*
     - Concepção e liderança técnica de ponta a ponta do SaaS de gestão documental e auditoria ISO 9001 para empresas credenciadas de vistoria veicular ([produção](https://iso9001vistoriaveicular.com.br/)), com faturamento recorrente.
     - Monorepo com backend Kotlin e Spring Boot 4, frontend web em Angular 21, apps nativos iOS (SwiftUI) e Android (Jetpack Compose), esteira de validação com OCR e IA multimodal (Spring AI) e outbox transacional com 13 workers.
 
