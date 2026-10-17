@@ -53,10 +53,31 @@ Atuo como PJ pela [DEVANDRADE TECH](https://devandrade.tech), atendendo clientes
 
 ## Trajetória
 
-- `ago/2026–atual` **DEVANDRADE TECH** (PJ): K2 Partnering Solutions / Pluxee, liquidação de benefícios · NTConsult / Agibank, crédito consignado CLT · Alpha Prime, sócio e responsável técnico
-- `jan/2026–ago/2026` **Code Group / Núclea**: liquidação interbancária de cartões no SPB
-- `jan/2025–jan/2026` **iFood**: eventos do ciclo de vida do pedido
-- `jun/2023–jan/2025` **Kepha Venture Builder**: renderização de layouts publicitários
+- `ago/2026–atual` **DEVANDRADE TECH (PJ)** — Consultoria técnica backend e produto próprio:
+  - **K2 Partnering Solutions / Pluxee** (`set/2026–atual`) · *Liquidação de benefícios*
+    - Construção do serviço de liquidação (*settlement*) do arranjo de pagamento de benefícios sob regras e prazos regulatórios do PAT, em Java e Spring Boot com arquitetura hexagonal (verificada por ArchUnit).
+    - Orquestração em Kubernetes na Azure com PostgreSQL e Azure Service Bus; integração da posição financeira do core e geração de arquivos de conciliação e liquidação definitiva para o credenciador em layout posicional (integração por blob, manifest e evento).
+  - **NTConsult / Agibank** (`ago/2026–atual`) · *Crédito consignado CLT*
+    - Desenvolvimento e evolução de microsserviços de averbação, refinanciamento e CCB integrados à Dataprev (Java 21, Spring Boot, Kafka, Camunda, MongoDB em AWS EKS).
+    - Modelagem do refinanciamento N:1 com regras de elegibilidade e precificação no FICO Blaze Advisor (SRL) e tratamento de duplicidade via padrão Strategy com testes de mutação (Pitest), eliminando 100% da aprovação manual de contratos parados em erro.
+    - Sustentação em produção dos fluxos orquestrados no Camunda via scripts sobre a REST API do engine com dry run; diagnóstico de concorrência (*optimistic locking*) no MongoDB sob carga.
+  - **Alpha Prime** (`2024–atual`) · *Sócio e responsável técnico*
+    - Concepção e liderança técnica de ponta a ponta do SaaS de gestão documental e auditoria ISO 9001 para empresas credenciadas de vistoria veicular ([produção](https://iso9001vistoriaveicular.com.br/)), com faturamento recorrente.
+    - Monorepo com backend Kotlin e Spring Boot 4, frontend web em Angular 21, apps nativos iOS (SwiftUI) e Android (Jetpack Compose), esteira de validação com OCR e IA multimodal (Spring AI) e outbox transacional com 13 workers.
+
+- `jan/2026–ago/2026` **Code Group / Núclea** · *Liquidação interbancária de cartões no SPB*
+  - Desenvolvimento e sustentação do SLC, plataforma crítica de compensação e liquidação interbancária sob protocolo do Banco Central (Java 8, DB2, WebSphere, IBM MQ, Apache Wicket).
+  - Otimização de consulta crítica de conciliação em DB2 de **14 min para 7 s** (120×) via reescrita SQL, decomposição em fases e índice composto validado no `db2exfmt`.
+  - Eliminação de N+1 na Base Centralizada (resposta < 3 s sem novos índices nem DBA via espelho operacional e `ROW_NUMBER`), faturamento progressivo das bandeiras (IAP) com migrações Liquibase e diagnóstico de saturação do pool JMS (300/300 conexões), destravando rollouts em produção.
+
+- `jan/2025–jan/2026` **iFood** · *Eventos do ciclo de vida do pedido*
+  - Processamento e rastreamento de eventos em plataforma com escala de **~160 milhões de pedidos por mês** (Java e Kotlin), com distributed tracing ponta a ponta e logs centralizados no Logz.io (OpenSearch).
+  - Modelagem de integrações assíncronas SNS→SQS em fanout multirregião na AWS com timeouts, circuit breakers e retries com backoff exponencial para absorver picos de tráfego.
+  - Observabilidade pelos quatro Golden Signals no Datadog (latência p95/p99, tráfego, erros e saturação) e elevação da cobertura de branches para **~95%** com JUnit 5, Mockito e RestAssured.
+
+- `jun/2023–jan/2025` **Kepha Venture Builder** · *Renderização de layouts publicitários*
+  - Sustentação em produção do motor de processamento e renderização de layouts publicitários em Java 17, com foco em alta disponibilidade e resolução ágil de incidentes.
+  - Refatoração de modelos fixos para templates parametrizáveis e reutilizáveis, acelerando o tempo de lançamento de campanhas e eliminando gargalos operacionais entre design e engenharia.
 
 ---
 
