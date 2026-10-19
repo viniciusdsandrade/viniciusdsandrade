@@ -19,7 +19,7 @@ Campinas, SP · remoto ou híbrido em SP · [devandrade.tech](https://devandrade
 
 Desenvolvo e sustento backends em Java e Kotlin que movimentam dinheiro e pedidos em volume: crédito consignado CLT integrado à Dataprev, liquidação do arranjo de pagamento de benefícios, liquidação interbancária de cartões no SPB e eventos de pedido numa plataforma com ~160 milhões de pedidos por mês. Trabalho com Spring Boot, mensageria (Kafka, IBM MQ, SNS/SQS, Azure Service Bus), SQL e observabilidade, e deixo teste, runbook e decisão registrada para quem vem depois.
 
-Atuo como PJ pela [DEVANDRADE TECH](https://devandrade.tech), atendendo clientes do setor financeiro e de benefícios, e conduzo o desenvolvimento do Alpha Prime, SaaS do qual sou sócio.
+Sou fundador e sócio-administrador da [DEVANDRADE TECH](https://devandrade.tech), consultoria em engenharia de software. É por meio dela que presto serviços técnicos a clientes dos setores financeiro e de benefícios e conduzo o desenvolvimento do Alpha Prime, SaaS de gestão para empresas de vistoria veicular do qual sou cofundador.
 
 **Idiomas:** PT-BR nativo · EN B2 · ES A2
 
