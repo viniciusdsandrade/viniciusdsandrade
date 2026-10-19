@@ -102,6 +102,6 @@ Sou fundador e sócio-administrador da [DEVANDRADE TECH](https://devandrade.tech
 
 ## Formação
 
-- **Análise e Desenvolvimento de Sistemas**, FATEC Campinas, conclusão prevista para dez/2026
+- **Análise e Desenvolvimento de Sistemas**, FATEC Campinas, dez/2025
 - **Técnico em Desenvolvimento de Sistemas**, COTUCA/UNICAMP, dez/2024
 - AlgaWorks Especialista em Microsserviços (650 h) · FullCycle 4.0 (380 h) · DevSuperior Spring Boot (320 h)
