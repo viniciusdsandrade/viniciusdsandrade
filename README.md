@@ -1,5 +1,5 @@
 <!-- perfil:inicio -->
-<!-- Gerado por scripts/render-profile.mjs (workflow perfil.yml). Para mudar os cartões, fixe ou desafixe repositórios no perfil. -->
+<!-- Gerado por scripts/render-profile.mjs (workflow perfil.yml). Com repositórios fixados no perfil, eles valem; sem nenhum fixado, valem os links abaixo (edite-os para trocar os cartões). -->
 
 Fixados
 

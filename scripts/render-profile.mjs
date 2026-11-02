@@ -28,7 +28,9 @@ const repository = process.env.GITHUB_REPOSITORY || `${login}/${login}`;
 const outDir = opts.out || "dist";
 const branch = opts.branch || "output";
 const rawBase = `https://raw.githubusercontent.com/${repository}/${branch}`;
-const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
+// PROFILE_TOKEN (opcional): token do próprio dono do perfil, para ler o calendário mesmo com o
+// perfil privado; sem ele vale o GITHUB_TOKEN do workflow.
+const token = process.env.PROFILE_TOKEN || process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 
 const MARK_START = "<!-- perfil:inicio -->";
 const MARK_END = "<!-- perfil:fim -->";
@@ -109,6 +111,12 @@ async function main() {
   }
   if (repos.length === 0) fail("Nenhum repositório fixado no perfil nem listado no README.");
 
+  // Calendário zerado indica que a API não mostrou as contribuições (por exemplo, perfil privado
+  // lido sem PROFILE_TOKEN); falhar mantém publicada a última grade boa em vez de uma grade vazia.
+  if (data.user.contributionsCollection.contributionCalendar.totalContributions === 0) {
+    fail("Calendário de contribuições zerado; com o perfil privado, configure o segredo PROFILE_TOKEN.");
+  }
+
   const cards = repos.map((repo) => ({ repo, slug: slugOf(repo), layout: layoutCard(repo) }));
   const cardHeight = Math.max(...cards.map((c) => c.layout.minHeight));
 
@@ -158,7 +166,7 @@ function renderBlock(cards) {
 
   return [
     MARK_START,
-    "<!-- Gerado por scripts/render-profile.mjs (workflow perfil.yml). Para mudar os cartões, fixe ou desafixe repositórios no perfil. -->",
+    "<!-- Gerado por scripts/render-profile.mjs (workflow perfil.yml). Com repositórios fixados no perfil, eles valem; sem nenhum fixado, valem os links abaixo (edite-os para trocar os cartões). -->",
     "",
     "Fixados",
     "",
