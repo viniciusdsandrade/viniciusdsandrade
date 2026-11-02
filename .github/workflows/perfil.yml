@@ -1,0 +1,54 @@
+# Regenera os cartões dos fixados e a grade de contribuições do README do perfil.
+# Os SVGs vão para a branch `output` (sobrescrita a cada execução); a main só
+# recebe commit quando a lista de fixados muda.
+name: perfil
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/render-profile.mjs
+      - .github/workflows/perfil.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: perfil
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      BOT_NAME: github-actions[bot]
+      BOT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Gera os SVGs e o bloco do README
+        run: node scripts/render-profile.mjs --out "$RUNNER_TEMP/perfil" --readme README.md
+
+      - name: Publica os SVGs na branch output
+        working-directory: ${{ runner.temp }}/perfil
+        run: |
+          git init -q -b output
+          git add -A
+          git -c user.name="$BOT_NAME" -c user.email="$BOT_EMAIL" commit -q -m "chore: gera os cartões do perfil"
+          git push -f -q "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+
+      - name: Sincroniza o README quando os fixados mudam
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README em dia."
+            exit 0
+          fi
+          git -c user.name="$BOT_NAME" -c user.email="$BOT_EMAIL" commit -q -m "docs: sincroniza os fixados no readme" -- README.md
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
